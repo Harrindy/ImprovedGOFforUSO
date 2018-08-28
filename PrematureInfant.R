@@ -1,6 +1,6 @@
 ############################################################################################
 ############################################################################################
-# This R program can be used to reproduce our real data analysis of the manuscript 
+# This R program can be used to reproduce the real data analysis in the paper 
 #       "A more powerful goodness-of-fit test for uniform stochastic ordering."                                                                          
 ############################################################################################
 ############################################################################################
