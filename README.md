@@ -6,11 +6,11 @@ Prior to using R programs on this repository, please install R package "TestUSO"
     library(devtools)
     install_github("Harrindy/TestUSO")
 
-To reproduce our simulation results: 
+To repeat our simulation results: 
     
     1. Download the files Curves.R and Simulation.R to your computer. 
     2. Open Simulation.R in R (Rstudio). 
-    3. Follow the instructions to change the parameters according to the simulation setting that you want to reproduce. 
+    3. Follow the comments to change parameters to the simulation setting that you want to repeat. 
     4. Make sure that R package "TestUSO" has been installed and R (or Rstudio) can access the R file Curves.R.
     5. Run Simulation.R. 
 
