@@ -1,6 +1,6 @@
 ############################################################################################
 ############################################################################################
-# This R program can be used to reproduce the simulation results of the manuscript 
+# This R program can be used to reproduce the simulation studies in the manuscript 
 #       "A more powerful goodness-of-fit test for uniform stochastic ordering."                                                                          
 ############################################################################################
 ############################################################################################
