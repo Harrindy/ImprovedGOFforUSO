@@ -12,7 +12,7 @@
 
 source("Curves.R")
 
-# In the simulation section (Section 4),
+# In the simulation section (Section 5),
 # we considered 9 fixed ODC: R0, R1, ..., R8,
 # and four sequences of ODCs indexed by 
 #           delta_a, delta_b, delta_c, delta_d.
@@ -24,13 +24,13 @@ source("Curves.R")
 #                               n observations from Uniform(0,1),
 #                           so that the resulting ODC is the picked ODC.
 #   Options for mod include
-#     "R0", "R1", ..., "R8" (corresponding to the 9 fixed ODCs in Section 4.1)
-#     "delta_a_0",..., "delta_a_9" (the sequence of ODCs indexed by delta_a in Section 4.2)
-#     "delta_b_0",..., "delta_b_9" (the sequence of ODCs indexed by delta_b in Section 4.2)
-#     "delta_c_0",..., "delta_c_9" (the sequence of ODCs indexed by delta_c in Section 4.2)
-#     "delta_d_0",..., "delta_d_9" (the sequence of ODCs indexed by delta_d in Section 4.2)
+#     "R0", "R1", ..., "R8" (corresponding to the 9 fixed ODCs in Section 5.1)
+#     "delta_a_0",..., "delta_a_9" (the sequence of ODCs indexed by delta_a in Section 5.2)
+#     "delta_b_0",..., "delta_b_9" (the sequence of ODCs indexed by delta_b in Section 5.2)
+#     "delta_c_0",..., "delta_c_9" (the sequence of ODCs indexed by delta_c in Section 5.2)
+#     "delta_d_0",..., "delta_d_9" (the sequence of ODCs indexed by delta_d in Section 5.2)
 
-# For example, if considering the ODC R5 in Section 4.1
+# For example, if considering the ODC R5 in Section 5.1
 # This ODC can be plotted by
 u=seq(0,1,length=1000)
 plot(u,R(u,mod="R5"),type="l")
@@ -45,17 +45,16 @@ Y=data$Y
 library(TestUSO)
 LSM(X,Y,graph=TRUE)
 
-# Then test against USO using fixed critical values
+# Then the testing produce using fixed critical values can be performed by
 TestUSO_fixed(X,Y,alpha=0.05)
 
-# And test against USO using sample-based critical values
+# And the testing produce using sample-based critical values can be performed by
 TestUSO_samplebased(X,Y,alpha=0.05)
 
 
-# You can repeat these for any ODC that was considered in Section 4. 
+# You can repeat these for any ODC that was considered in Section 5. 
 # All you need to change is the value of mod.
-# For example, if you want R(u, delta_c=8),
-# set mod="delta_c_8":
+# For example, if you want the member delta_c=8 in the third ODC sequence in Section 5.2, simply set mod="delta_c_8":
 u=seq(0,1,length=1000)
 plot(u,R(u,mod="delta_c_8"),type="l")
 data=Data.Generate(100,100,mod="delta_c_8")
