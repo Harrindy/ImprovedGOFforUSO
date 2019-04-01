@@ -44,12 +44,8 @@ Y=data$Y
 # the sample ODC and its least star-shaped majorant can be plotted by
 library(TestUSO)
 LSM(X,Y,graph=TRUE)
-
-# Then the testing produce using fixed critical values can be performed by
-TestUSO_fixed(X,Y,alpha=0.05)
-
-# And the testing produce using sample-based critical values can be performed by
-TestUSO_samplebased(X,Y,alpha=0.05)
+# The tests can be performed by
+GoF4USO(X,Y,alpha=0.05)
 
 
 # You can repeat these for any ODC that was considered in Section 5. 
@@ -62,5 +58,4 @@ X=data$X
 Y=data$Y
 library(TestUSO)
 LSM(X,Y,graph=TRUE)
-TestUSO_fixed(X,Y,alpha=0.05)
-TestUSO_samplebased(X,Y,alpha=0.05)
+GoF4USO(X,Y,alpha=0.05)
