@@ -16,17 +16,11 @@ Y=Y[is.na(Y)==FALSE]
 # Reproduce Figure 2 of the manuscript.
 # It plots the empirical ODC and its least star-shaped majorant.
 LSM(X,Y,graph=TRUE)
-
-![Optional Text](../master/InfantRmn.png)
-
 #############################################
 # Reproduce Figure 3(b) of the manuscript
 # Conduct the test via four methods.
 set.seed(100)
 GoF4USO(X,Y,alpha=0.05,graph=TRUE)
-
-![Optional Text](../master/InfantNew.png)
-
 # [1] "1: reject USO; 0: do not rejct USO"
 # [1] "Fixed_cv: critical values based on the limiting distribution at the least favorable configuration"
 # [1] "Reject_USO_fix: reject or not based on the limiting distribution at the least favorable configuration"
