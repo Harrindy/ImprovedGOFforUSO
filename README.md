@@ -10,7 +10,7 @@ To repeat our simulation results:
     
     1. Open Simulation.R in R (Rstudio). 
     3. Follow the comments to change parameters to the simulation setting that you want to repeat. 
-    4. Make sure that "TestUSO" has been installed and R (or Rstudio) can access the R file Curves.R.
+    4. Make sure that "TestUSO" package has been installed and R (or Rstudio) can access the internet.
     5. Run Simulation.R. 
 
 
@@ -18,4 +18,5 @@ The premature infant data is provided in PrematureInfant.CSV. Due to a confident
 
 To reproduce the analysis in the premature infant data example: 
 
-    1. Run PrematureInfant.R. 
+    1. Make sure that "TestUSO" package has been installed and R (or Rstudio) can access the internet.
+    2. Run PrematureInfant.R. 
