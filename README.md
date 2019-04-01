@@ -4,7 +4,7 @@ This repository contains R programs for the article, “A more powerful goodness
 Prior to using R programs on this repository, please install R package "TestUSO" (https://github.com/Harrindy/TestUSO) using the following commands:
 
     library(devtools)
-    install_github("Harrindy/TestUSO")
+    install_github("Harrindy/TestUSO",force=TRUE)
 
 To repeat our simulation results: 
     
