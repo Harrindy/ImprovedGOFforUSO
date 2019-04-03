@@ -3,6 +3,11 @@
 # This R program can be used to reproduce the real data analysis in the paper 
 #       "A more powerful goodness-of-fit test for uniform stochastic ordering."                                                                          
 ############################################################################################
+
+############################################################################################
+# Please install the TestUSO package:
+# library(devtools)
+# install_github("Harrindy/TestUSO",force=TRUE) 
 ############################################################################################
 library(TestUSO)
 #############################################
