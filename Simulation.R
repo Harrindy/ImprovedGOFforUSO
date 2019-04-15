@@ -1,7 +1,7 @@
 ############################################################################################
 ############################################################################################
 # This R program can be used to repeat the simulation studies in the manuscript 
-#       "A more powerful goodness-of-fit test for uniform stochastic ordering."                                                                          
+#       "More powerful goodness-of-fit tests for uniform stochastic ordering."                                                                          
 ############################################################################################
 ############################################################################################
 
