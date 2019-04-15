@@ -1,5 +1,5 @@
 # Improved goodness-of-fit test for uniform stochastic ordering
-This repository contains R programs for the article, “A more powerful goodness-of-fit test for uniform stochastic ordering,” by Dewei Wang, Chuan-Fa Tang, and Joshua Tebbs. This article has been submitted for publication.
+This repository contains R programs for the article, “More powerful goodness-of-fit tests for uniform stochastic ordering,” by Dewei Wang, Chuan-Fa Tang, and Joshua Tebbs. This article has been submitted for publication.
 
 Prior to using R programs on this repository, please install R package "TestUSO" (https://github.com/Harrindy/TestUSO) using the following commands:
 
@@ -14,7 +14,7 @@ To repeat our simulation:
     5. Run Simulation.R. 
 
 
-The premature infant data is provided in PrematureInfant.CSV. Due to a confidentiality issue, we cannot provide the original data. However, because the ODC and both methods considered in the paper are invariant to an increasing transformation on the two samples, we divided each observation by the maximum of the two samples and presented the transformed data in PrematureInfant.csv. 
+The premature infant data is provided in PrematureInfant.CSV. Due to a confidentiality issue, we cannot provide the original data. However, because the ODC and all the methods considered in the paper are invariant to an increasing transformation on the two samples, we divided each observation by the maximum of the two samples and presented the transformed data in PrematureInfant.csv.
 
 To reproduce the analysis of the premature infant data: 
 
