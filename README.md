@@ -1,7 +1,7 @@
 # Improved goodness-of-fit test for uniform stochastic ordering
 This repository contains R programs for the article, “More powerful goodness-of-fit tests for uniform stochastic ordering,” by Dewei Wang, Chuan-Fa Tang, and Joshua Tebbs. This article has been submitted for publication.
 
-Prior to using R programs on this repository, please install R package "TestUSO" (https://github.com/Harrindy/TestUSO) using the following commands:
+Prior to using R programs on this repository, please install R package "TestUSO" (https://github.com/Harrindy/TestUSO) using the following:
 
     library(devtools)
     install_github("Harrindy/TestUSO",force=TRUE)
