@@ -15,7 +15,7 @@ library(TestUSO)
 source("https://raw.githubusercontent.com/harrindy/ImprovedGOFforUSO/master/Curves.R")
 
 # In the simulation section (Section 4),
-# we considered 9 fixed ODC: R0, R1, ..., R8,
+# we considered 5 fixed ODC: R0, R1, ..., R4,
 # and four sequences of ODCs indexed by 
 #           delta_a, delta_b, delta_c, delta_d.
 # After sourcing the Curves.R file using the above command,
@@ -25,13 +25,13 @@ source("https://raw.githubusercontent.com/harrindy/ImprovedGOFforUSO/master/Curv
 #                               m observations from F=ODC (defined by mod) and 
 #                               n observations from Uniform(0,1).
 #   Options for mod include
-#     "R0", "R1", ..., "R8" (corresponding to the 9 fixed ODCs in Section 4.1)
-#     "delta_a_0",..., "delta_a_9" (the sequence of ODCs indexed by delta_a in Section 4.2)
-#     "delta_b_0",..., "delta_b_9" (the sequence of ODCs indexed by delta_b in Section 4.2)
-#     "delta_c_0",..., "delta_c_9" (the sequence of ODCs indexed by delta_c in Section 4.2)
-#     "delta_d_0",..., "delta_d_9" (the sequence of ODCs indexed by delta_d in Section 4.2)
+#     "R0", "R1", ..., "R4" (corresponding to the 5 fixed ODCs)
+#     "delta_a_0",..., "delta_a_9" (the sequence of ODCs indexed by delta_a)
+#     "delta_b_0",..., "delta_b_9" (the sequence of ODCs indexed by delta_b)
+#     "delta_c_0",..., "delta_c_9" (the sequence of ODCs indexed by delta_c)
+#     "delta_d_0",..., "delta_d_9" (the sequence of ODCs indexed by delta_d)
 
-# For example, if considering the ODC R4 in Section 4.1
+# For example, if considering the ODC R4 in Section 4
 # This ODC can be plotted by
 u=seq(0,1,length=1000)
 plot(u,R(u,mod="R4"),type="l")
